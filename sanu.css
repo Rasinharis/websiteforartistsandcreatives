@@ -1,0 +1,36 @@
+#alafeya{
+    width: 100vw; 
+    height: 100vh;
+    object-fit: cover; 
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    transition: all 0.5s ease;
+
+}
+
+
+#alafeya:hover{
+    filter:grayscale(5)
+}
+
+#sanu{
+    width: 100vw; 
+    height: 100vh; 
+    object-fit: cover; 
+    position: fixed; 
+    top: 0;
+    left: 0;
+    z-index: -1;
+
+}
+#anushka{
+    width: 100vw; 
+    height: 100vh; 
+    object-fit: cover; 
+    position: fixed; 
+    top: 0;
+    left: 0;
+    z-index:-1;
+}

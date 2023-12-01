@@ -1,0 +1,49 @@
+.lucy{
+    text-align: center;
+    font-family:'Gill Sans';
+    color:hsl(0,0%,10%);
+  }
+  .luca{
+    text-align:center;
+    color:darkslategray;
+    font-family: italic;
+  }
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+  }
+  
+  img {
+    width: 100%;
+    height: auto;
+  }
+  @keyframes borderAnimation {
+    0% {
+      border-color: #ff0000;
+    }
+    50% {
+      border-color: #00ff00;
+    }
+    100% {
+      border-color: #0000ff;
+    }
+  }
+  
+  .grid-item {
+    width: 100%;
+    animation: borderAnimation 3s infinite;
+    border-style: solid;
+    border-width: 2px;
+  }
+  .grid-container {
+    overflow: hidden;
+  }
+  
+  .grid-container img {
+    transition: transform 0.3s;
+  }
+  
+  .grid-container img:hover {
+    transform: scale(1.2);
+  }

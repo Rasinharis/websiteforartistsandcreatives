@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Artist's Website</title>
+  <h1 class="lucy">EUNOIA</h1>
+  <h3 class="luca">Beautiful Thinking</h3>
+  <link rel="stylesheet" type="text/css" href="art.css">
+  <style>
+    .hero-section {
+      position: relative;
+      height: 400px; /* Adjust the height as needed */
+      overflow: hidden;
+    }
+    
+    .hero-image {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-image: url("path/to/your/image.jpg");
+      background-size: cover;
+      background-position: center;
+    }
+    
+    .tagline {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      color: white;
+      font-size: 24px;
+      text-align: center;
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    }
+  
+
+    .logo img {
+      width: 40px; /* Adjust the size as needed */
+      height: auto; /* To maintain aspect ratio */
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="logo">
+        <img src="IMG_20231126_140416.png" alt="Logo">
+      </div>
+    <nav>
+      <ul>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="creators.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  <div class="hero-section">
+    <div class="hero-image"></div>
+    <div class="tagline">
+      <h1 style="font-family: Georgia, 'Times New Roman', Times, serif;">Welcome to Eunoia</h1>
+      <p style="font-family: Georgia, 'Times New Roman', Times, serif;">Where the beauty and creativity of our featured artworks is unleashed.</p>
+    </div>
+  </div>
+  <!-- Rest of your website content goes here -->
+</body>
+</html>

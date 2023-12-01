@@ -1,0 +1,57 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #d8eed8;
+    background-image: url('20231125_201612.png'); /* Assuming the image is in the same directory as your HTML file */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    
+}
+
+.contact-container {
+    text-align: center;
+}
+
+.contact-card {
+    background-color: #f2f0f0;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease; /* Add a smooth transition effect for hover */
+    position: relative;
+    overflow: hidden;
+}
+
+.contact-card:hover {
+    transform: scale(1.05); /* Enlarge the card on hover */
+}
+
+h2 {
+    color: #333;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.social-icons a {
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+.social-icons img {
+    width: 30px;
+    height: 30px;
+    transition: transform 0.3s ease; /* Add a smooth transition effect for icon hover */
+}
+
+.social-icons img:hover {
+    transform: scale(1.2); /* Enlarge the icon on hover */
+}

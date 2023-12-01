@@ -1,0 +1,73 @@
+body{
+    margin:0;
+  padding:0;
+  background-image:url("photo_2023-11-26_13-03-22.jpg") ;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh; /* Set the height of the background to fill the viewport */
+
+}
+    header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #f2f2f2;
+  }
+  
+  .logo h1 {
+    font-size: 14px;
+    font-weight: bold;
+  }
+  
+  nav ul {
+    display: flex;
+    list-style: none;
+  }
+  
+  nav ul li {
+    margin-right: 20px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  nav ul li a:hover {
+    color: #ff6600;
+  }
+  .lucy{
+    padding: 10px;
+    background-color:#2a5818;
+    text-align: center;
+    color:#8fd9aa;
+    font-size: 50px;
+    font-family: 'Arial', sans-serif;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    
+  }
+  
+  .luca{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align:center;
+    color:#174e4e;
+    border: 2px solid rgb(105, 82, 82);
+    padding: 10px;
+    background-color:  #FFDAB9;
+  }
+  .tagline {
+    background-color: #bdf2d5;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    color: white;
+    font-family: 'Arial', sans-serif;
+    font-size: 18px;
+    text-align: center;
+  }
+
